@@ -150,8 +150,10 @@ body {
 .thumbnail,.thumbnail>img{
 	border-radius:120px;
 }
-span.time{
-	font-style:italic;
+span.title{
+	font-size:1.2em;
+	font-weight:bold;
+	color:#666;
 }
 #abllk{
 	cursor:pointer;
