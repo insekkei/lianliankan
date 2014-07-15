@@ -29,11 +29,14 @@ body {
   height: 100%;
   font-family:'微软雅黑','文泉驿正黑'，'宋体';
 }
-html{  background:url(../img/body-bkg.png) repeat;}
+html{  
+  background:url(../img/bg.jpg) no-repeat;
+  background-size:cover;
+}
 body {
   color: #573f24;
   text-align: center;
-  background:transparent;
+  background:rgba(255,255,255,.4);
   text-shadow: 0 1px 1px rgba(255,255,255,.8);
 }
 
@@ -118,7 +121,7 @@ body {
 	cursor:pointer;
 }
 #slide-left span:before,#slide-right span:before{
-	color:#fff;
+	color:#573f24;
 	font-size:55px;
 	display:inline-block;
 	cursor:pointer;
@@ -137,7 +140,7 @@ body {
 .cover {
   padding: 0 20px;
   color:#660000;
-  line-height:1.5em;
+  line-height:1.7em;
 }
 .cover .btn-lg {
   padding: 10px 20px;
@@ -239,4 +242,35 @@ span.title{
 	  right:10px;
 	}
 
+}
+
+/*
+*contents
+*/
+.contents{
+	color:#444;
+	text-align:left;
+	line-height:2em;
+}
+.contents .col-md-3 img{
+	width:200px;
+}
+.contents dl{
+	margin-top:2em;
+}
+.contents dt{
+	margin-top:1em;
+}
+.contents h4{
+	font-size:2em;
+}
+.contents .main>ul{
+	padding-left:0;
+}
+.contents li{
+	list-style:none;
+}
+.contents li a{
+	color:#222 !important;
+	line-height:2.4em;
 }

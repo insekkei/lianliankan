@@ -1,4 +1,5 @@
 $(function(){
+	//show about
 	$('#abllk').click(function(e){
 		$('.code').fadeIn(300);
 	});
@@ -6,6 +7,7 @@ $(function(){
 		$(this).fadeOut(300);
 	});
 	ifFirstItem();
+	//slide left
 	$('#slide-left').click(function(e){
 		e.preventDefault();
 		var $curItem = $('.list-item.current');
@@ -15,6 +17,7 @@ $(function(){
 		ifFirstItem();
 	});
 	ifLastItem();
+	//slide right
 	$('#slide-right').click(function(e){
 		e.preventDefault();
 		var $curItem = $('.list-item.current');
@@ -23,7 +26,18 @@ $(function(){
 		$('#slide-left').fadeIn(300);
 		ifLastItem();
 	});
+	//contents
+	$(document).ajaxStart(function () {
+		$(this).html("正在努力地为您加载目录...");
+	});
+
+	$('a.thumbnail').click(function(e){
+		e.preventDefault();
+		var data = $(this).attr('data');
+		$('.cover-container').load('html/'+data);
+	});
 });
+//if current is first item
 function ifFirstItem(){
 	var $curItem = $('.list-item.current');
 	if($curItem.hasClass('first-item')){
@@ -32,7 +46,7 @@ function ifFirstItem(){
 		$('#slide-left').fadeIn(300);
 	}
 }
-
+//if current is last item
 function ifLastItem(){
 	var $curItem = $('.list-item.current');
 	if($curItem.hasClass('last-item')){
