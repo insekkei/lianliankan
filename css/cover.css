@@ -1,0 +1,230 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  outline:0;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #fff;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #08c;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  font-family:'微软雅黑','文泉驿正黑'，'宋体';
+}
+html{  background:url(../img/body-bkg.png) repeat;}
+body {
+  color: #333;
+  text-align: center;
+  background:transparent;
+  text-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(255,255,255,.5);
+          box-shadow: inset 0 0 100px rgba(255,255,255,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 24px;
+}
+.masthead{
+  background:transparent;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #666; /* IE8 proofing */
+  color: rgba(0,0,0,.6);
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #999;
+  border-bottom-color: #999;
+}
+
+@media (min-width: 640px) {
+  .masthead-brand {
+    clear:both;
+  }
+  .masthead-nav {
+    clear:both;
+  }
+}
+
+/*
+*slide nav
+*/
+#slide-left,#slide-right{
+	position:absolute;
+	top:40%;
+}
+#slide-left:before,#slide-right:before{
+	color:#fff;
+	font-size:55px;
+	display:inline-block;
+	cursor:pointer;
+}
+#slide-left{
+	left:10%;
+}
+#slide-right{
+	right:10%;
+}
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+  color:#900;
+  line-height:1.5em;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.thumbnail{
+	width:230px;
+	height:230px;
+	margin-left:auto;
+	margin-right:auto;
+	border:0;
+}
+.thumbnail,.thumbnail>img{
+	border-radius:120px;
+}
+span.time{
+	font-style:italic;
+}
+#abllk{
+	cursor:pointer;
+}
+.code{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	background:rgba(184,167,143,.9);
+	border:1px solid #ddd;
+	text-align:center;
+	line-height:2em;
+	color:#fff;
+	display:none;
+}
+.code img,.code p{
+	width:300px;
+	margin:1em auto;
+}
+.code p{
+	margin-top:80px;
+}
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(0,0,0,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 641px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+    z-index:0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  .masthead,.mastfoot,.site-wrapper-inner{
+	width:100%;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  .inner.cover  {
+    width: 80%;
+    margin:0 auto;
+  }
+}
+
+@media (max-width: 640px){
+	.inner.cover {
+	  margin:30px auto;
+	}
+
+	#slide-left{
+	  left:10px;
+	}
+	#slide-right{
+	  right:10px;
+	}
+
+}
