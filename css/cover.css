@@ -3,6 +3,40 @@
  */
 
 /* Links */
+
+@font-face
+{
+font-family: '方正古隶';
+src: url('../fonts/FZGL.ttf'),
+     url('../fonts/FZGL.eot'); /* IE9+ */
+}
+@font-face
+{
+font-family: '方正瘦金简';
+src: url('../fonts/FZSJJ.ttf'),
+     url('../fonts/FZSJJ.eot');
+}
+/*@font-face
+{
+font-family: '方正博雅宋楷';
+src: url('../fonts/FZBYSK.TTF'),
+     url('../fonts/FZBYSK.eot');  
+}
+@font-face
+{
+font-family: '方正兰亭细黑';
+src: url('../fonts/FZLTXH.TTF'),
+     url('../fonts/FZLTXH.eot');
+}
+
+
+@font-face
+{
+font-family: '方正正纤黑体';
+src: url('../fonts/FZZXHT.ttf'),
+     url('../fonts/FZZXHT.eot'); 
+}
+*/
 a,
 a:focus,
 a:hover {
@@ -19,7 +53,6 @@ a:hover {
   border: 1px solid #fff;
 }
 
-
 /*
  * Base structure
  */
@@ -27,8 +60,9 @@ a:hover {
 html,
 body {
   height: 100%;
-  font-family:'微软雅黑','文泉驿正黑'，'宋体';
+  font-family:'方正瘦金简','微软雅黑','文泉驿正黑';
 }
+
 html{  
   background:url(../img/bg.jpg) no-repeat;
   background-size:cover;
@@ -37,7 +71,11 @@ body {
   color: #573f24;
   text-align: center;
   background:rgba(255,255,255,.4);
-  text-shadow: 0 1px 1px rgba(255,255,255,.8);
+  text-shadow: 0 0 1px rgba(0,0,0,.6);
+  font-size:16px;
+}
+h1,h2,h3,h4{
+  font-family:'方正古隶','微软雅黑','文泉驿正黑';
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -275,7 +313,7 @@ span.title{
 }
 .contents li a{
 	color:#222;
-	line-height:2.4em;
+	line-height:2.2em;
 }
 
 .contents li a:hover{

@@ -35,7 +35,8 @@ $(function(){
 		e.preventDefault();
 		var data = $(this).attr('data');
 		$('.cover-container').load('html/'+data);
-		//location.href = location.href+'shanhaiching';
+		//location.hash = "#shanhaiching";
+		
 	});
 });
 //if current is first item
