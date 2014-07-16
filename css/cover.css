@@ -34,8 +34,8 @@ a,
 a:focus,
 a:hover {
   outline:0;
+  text-decoration:none;
 }
-
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -198,10 +198,8 @@ span.title{
 	font-weight:bold;
 	color:#666;
 }
-#abllk{
-	cursor:pointer;
-}
-.code{
+
+.code,.helloworld{
 	position:absolute;
 	top:0;
 	width:100%;
@@ -210,6 +208,7 @@ span.title{
 	border:1px solid #ddd;
 	text-align:center;
 	line-height:2em;
+	overflow:scroll;
 	display:none;
 }
 .code img,.code p{
@@ -218,6 +217,15 @@ span.title{
 }
 .code p{
 	margin-top:80px;
+}
+p.center{
+	text-align:center !important;
+}
+.helloworld p{
+	width:80%;
+	margin:1em auto;
+	text-indent:2em;
+	text-align:left;
 }
 /*
  * Footer
@@ -309,8 +317,15 @@ span.title{
 	line-height:2.2em;
 }
 
-.contents li a:hover{
-	text-decoration:none;
+.back2index{
+	color:#573f24;
+	font-size:32px;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+.back2index:hover{
+	color:#ddd;
 }
 @media (min-width: 641px) {
   .col-md-3 {
@@ -330,7 +345,11 @@ span.title{
   .contents ul{
     padding-left:0;
   }
-  html{
-	background:none;
+  .code,.helloworld{
+	height:auto;
+  }
+  html,.code,.helloworld{
+	background:#fff;
+	z-index:99999;
   }
 }

@@ -1,9 +1,18 @@
 $(function(){
 	//show about
 	$('#abllk').click(function(e){
+		e.preventDefault();
 		$('.code').fadeIn(300);
 	});
 	$('.code').click(function(e){
+		$(this).fadeOut(300);
+	});
+	//show juanshouyu
+	$('#abccj').click(function(e){
+		e.preventDefault();
+		$('.helloworld').fadeIn(300);
+	});
+	$('.helloworld').click(function(e){
 		$(this).fadeOut(300);
 	});
 	ifFirstItem();
