@@ -263,9 +263,14 @@ p.center{
 }
 
 @media (min-width: 992px) {
-  .inner.cover  {
-    width: 80%;
-    margin:0 auto;
+  .inner.cover.details,.inner.cover.contents  {
+	width: 100%;
+	padding: 0 10%;
+	margin: 0 auto;
+	height: auto;
+	min-height:100%;
+	position: absolute;
+	top: 0;
   }
 }
 
@@ -327,6 +332,9 @@ p.center{
 }
 .back2index:hover,.back2con:hover{
 	color:#ddd;
+}
+.contents,.details{
+	background:#fff;
 }
 /*
  *details
