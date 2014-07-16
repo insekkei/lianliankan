@@ -40,14 +40,32 @@ $(function(){
 		$(this).html("正在努力地为您加载目录...");
 	});
 
+	//from index to contents
 	$('a.thumbnail').click(function(e){
 		e.preventDefault();
 		var data = $(this).attr('data');
-		$('.cover-container').load('html/'+data);
-		//location.hash = "#shanhaiching";
-		
+		$('.cover-container').load('html/'+data,getDetails);
 	});
+	
+	//back to contents
+	var getContents = function(){
+		$('.back2con').click(function(e){
+			e.preventDefault();
+			var data = $(this).attr('data');
+			$('.cover-container').load('html/'+data,getDetails);
+		});
+	}
+	//go to details page
+	var getDetails = function(){
+		$('.main ul li a').click(function(e){
+			e.preventDefault();
+			var data = $(this).attr('data');
+			$('.cover-container').load('html/'+data,getContents);
+		
+		});
+	}
 });
+
 //if current is first item
 function ifFirstItem(){
 	var $curItem = $('.list-item.current');
