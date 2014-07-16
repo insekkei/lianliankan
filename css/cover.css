@@ -53,7 +53,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  font-family:'汉仪小隶书','微软雅黑','文泉驿正黑';
+  font-family:'汉仪小隶书','隶书','LiSu','文泉驿','微软雅黑';
 }
 
 html{  
@@ -68,7 +68,7 @@ body {
   font-size:16px;
 }
 h1,h2,h3,h4,.title,dl dt{
-  font-family:'方正古隶','微软雅黑','文泉驿正黑';
+  font-family:'方正古隶','隶书','LiSu','文泉驿','微软雅黑';
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
