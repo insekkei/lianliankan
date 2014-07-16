@@ -12,29 +12,22 @@ src: url('../fonts/FZGL.ttf'),
 }
 @font-face
 {
+font-family: '汉仪小隶书';
+src: url('../fonts/HYXLSJ.ttf'),
+     url('../fonts/HYXLSJ.eot');  
+}
+/*@font-face
+{
 font-family: '方正瘦金简';
 src: url('../fonts/FZSJJ.ttf'),
      url('../fonts/FZSJJ.eot');
 }
-/*@font-face
+
+@font-face
 {
 font-family: '方正博雅宋楷';
 src: url('../fonts/FZBYSK.TTF'),
      url('../fonts/FZBYSK.eot');  
-}
-@font-face
-{
-font-family: '方正兰亭细黑';
-src: url('../fonts/FZLTXH.TTF'),
-     url('../fonts/FZLTXH.eot');
-}
-
-
-@font-face
-{
-font-family: '方正正纤黑体';
-src: url('../fonts/FZZXHT.ttf'),
-     url('../fonts/FZZXHT.eot'); 
 }
 */
 a,
@@ -60,7 +53,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  font-family:'方正瘦金简','微软雅黑','文泉驿正黑';
+  font-family:'汉仪小隶书','微软雅黑','文泉驿正黑';
 }
 
 html{  
@@ -71,10 +64,10 @@ body {
   color: #573f24;
   text-align: center;
   background:rgba(255,255,255,.4);
-  text-shadow: 0 0 1px rgba(0,0,0,.6);
+  text-shadow: 0 0 1px rgba(0,0,0,0);
   font-size:16px;
 }
-h1,h2,h3,h4{
+h1,h2,h3,h4,.title,dl dt{
   font-family:'方正古隶','微软雅黑','文泉驿正黑';
 }
 
