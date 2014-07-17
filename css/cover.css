@@ -245,13 +245,30 @@ span.title{
 .center{
 	text-align:center !important;
 }
-
+.align-right{
+	text-align:right;
+}
 .art-title h2{
 	margin-top:0;
+}
+.art-title{
+	border-right:1px dashed #ddd;
+	border-left:1px dashed #ddd;
+}
+.art-title.mid{
+	border:0;
+	border-bottom:1px dashed #ddd;
+}
+.art-title.bott{
+	border:0;
+	margin-top:1em;
+	border-bottom:1px dashed #ddd;
+	border-top:1px dashed #ddd;
 }
 .art-title p{
 	margin:.5em 0;
 	text-indent:0 !important;
+	color:#666;
 }
 .details .author{
 	background:orange;
@@ -433,6 +450,19 @@ span.title{
 }
 .profile.ing{
 	background-position:48px 0;
+}
+#prev,#next{
+	position:fixed;
+	display:inline-block;
+	bottom:0;
+	height:200px;
+	width:30%;
+}
+#prev{
+	left:0;
+}
+#next{
+	right:0;
 }
 @media (min-width: 641px) {
   .col-md-3 {

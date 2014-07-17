@@ -49,7 +49,7 @@ $(function(){
 
 	//back to contents
 	var getContents = function(){
-		$('.back2con').click(function(e){
+		$('.back2con,#prev,#next').click(function(e){
 			e.preventDefault();
 			var data = $(this).attr('data');
 			$('.cover-container').load('html/'+data,getDetails);
@@ -62,7 +62,7 @@ $(function(){
 	}
 	//go to details page
 	var getDetails = function(){
-		$('.main ul li a').click(function(e){
+		$('.main ul li a,#prev,#next').click(function(e){
 			e.preventDefault();
 			var data = $(this).attr('data');
 			$('.cover-container').load('html/'+data,getContents);
