@@ -1,5 +1,9 @@
+/*
+ *js
+ */
 $(function(){
-	$('#layout-cover').fadeOut();
+	
+	//$('#layout-cover').fadeOut();
 	//show about
 	$('#abllk').click(function(e){
 		e.preventDefault();
@@ -75,7 +79,7 @@ $(function(){
 			html:'html'
 		}); 
 	}
-
+	window.onload=function(){$('#layout-cover').fadeOut();} 
 });
 
 //if current is first item
