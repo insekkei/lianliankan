@@ -1,4 +1,5 @@
 $(function(){
+	$('#layout-cover').fadeOut();
 	//show about
 	$('#abllk').click(function(e){
 		e.preventDefault();
