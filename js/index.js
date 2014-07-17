@@ -54,6 +54,12 @@ $(function(){
 			var data = $(this).attr('data');
 			$('.cover-container').load('html/'+data,getDetails);
 		});
+		//Enable popovers 
+		$('.author').click(function(e){
+			$(this).popover({
+				trigger:'focus'
+			});
+		});
 	}
 	//go to details page
 	var getDetails = function(){
@@ -64,6 +70,7 @@ $(function(){
 		
 		});
 	}
+
 });
 
 //if current is first item

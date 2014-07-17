@@ -242,8 +242,25 @@ span.title{
 .code p{
 	margin-top:80px;
 }
-p.center{
+.center{
 	text-align:center !important;
+}
+.right{
+	text-align:right !important;
+}
+.art-title h2{
+	margin-top:0;
+}
+.art-title p{
+	margin:.5em 0;
+	text-indent:0 !important;
+}
+.author{
+	background:orange;
+	color:#fff;
+	cursor:pointer;
+	padding:1px 5px;
+	border-radius:8px;
 }
 .helloworld p{
 	width:80%;
@@ -374,11 +391,12 @@ p.center{
 	border-top:1px dashed #ccc;
 	padding-top:1em;
 	padding-bottom:1em;
-	text-indent:2em;
 }
 .details .row p{
 	margin:0;
+	text-indent:2em;
 }
+
 @media (min-width: 641px) {
   .col-md-3 {
     width: 25% !important;
