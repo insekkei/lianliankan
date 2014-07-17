@@ -396,6 +396,43 @@ span.title{
 }
 .details .row .popover {
 	text-indent:0;
+	line-height:1.5em !important;
+}
+.writter{
+	color:#008000;
+}
+.profile{
+	display:inline-block;
+	float:left;
+	background:url(../img/author.jpg);
+	width:48px;
+	height:48px;
+	margin-right:8px;
+	background-size:144px auto;
+}
+.profile.nrc{
+	background-position:48px 0;
+}
+.profile.bsy{
+	background-position:0 96px;
+}
+.profile.myml{
+	background-position:0 0;
+}
+.profile.tz{
+	background-position:96px 96px;
+}
+.profile.ls{
+	background-position:96px 48px;
+}
+.profile.kfk{
+	background-position:48px 96px;
+}
+.profile.dq{
+	background-position:0 48px;
+}
+.profile.ing{
+	background-position:48px 0;
 }
 @media (min-width: 641px) {
   .col-md-3 {

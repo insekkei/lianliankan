@@ -56,7 +56,8 @@ $(function(){
 		});
 		//Enable popovers 
 		$('.author').popover({
-			trigger: 'hover'
+			trigger: 'hover',
+			html:'html'
 		}); 
 	}
 	//go to details page
@@ -69,7 +70,8 @@ $(function(){
 		});
 		//Enable the popovers
 		$('.author').popover({
-			trigger: 'hover'
+			trigger: 'hover',
+			html:'html'
 		}); 
 	}
 
