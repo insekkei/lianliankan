@@ -245,9 +245,7 @@ span.title{
 .center{
 	text-align:center !important;
 }
-.right{
-	text-align:right !important;
-}
+
 .art-title h2{
 	margin-top:0;
 }
@@ -255,7 +253,7 @@ span.title{
 	margin:.5em 0;
 	text-indent:0 !important;
 }
-.author{
+.details .author{
 	background:orange;
 	color:#fff;
 	cursor:pointer;
@@ -396,7 +394,9 @@ span.title{
 	margin:0;
 	text-indent:2em;
 }
-
+.details .row .popover {
+	text-indent:0;
+}
 @media (min-width: 641px) {
   .col-md-3 {
     width: 25% !important;

@@ -40,13 +40,13 @@ $(function(){
 		$(this).html("正在努力地为您加载目录...");
 	});
 
-	//from index to contents
+	//from thumbnails of index to contents
 	$('a.thumbnail').click(function(e){
 		e.preventDefault();
 		var data = $(this).attr('data');
 		$('.cover-container').load('html/'+data,getDetails);
 	});
-	
+
 	//back to contents
 	var getContents = function(){
 		$('.back2con').click(function(e){
@@ -55,11 +55,9 @@ $(function(){
 			$('.cover-container').load('html/'+data,getDetails);
 		});
 		//Enable popovers 
-		$('.author').click(function(e){
-			$(this).popover({
-				trigger:'focus'
-			});
-		});
+		$('.author').popover({
+			trigger: 'hover'
+		}); 
 	}
 	//go to details page
 	var getDetails = function(){
@@ -69,6 +67,10 @@ $(function(){
 			$('.cover-container').load('html/'+data,getContents);
 		
 		});
+		//Enable the popovers
+		$('.author').popover({
+			trigger: 'hover'
+		}); 
 	}
 
 });
