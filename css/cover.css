@@ -117,13 +117,12 @@ h1,h2,h3,h4,.title,dl dt{
  * Header
  */
 .logo{
-	background: rgba(0,144,0,1);
-	color:#fff;
-	text-align:center;
+	color: rgba(0,144,0,1);
 	display: inline-block;
 	padding: 0 8px;
 	position:absolute;
 	top:0;
+	left:10px;
 	border-bottom-left-radius:10px;
 	border-bottom-right-radius:10px;
 }
@@ -136,8 +135,7 @@ h1,h2,h3,h4,.title,dl dt{
 	line-height:16px;
 }
 .logo:hover{
-	color:#fff;
-	background: rgba(0,144,0,.6);
+	color: rgba(0,144,0,.6);
 }
 .masthead-brand {
   margin-top: 10px;
@@ -266,8 +264,12 @@ span.title{
 	margin-top:0;
 }
 .art-title{
+	background:#f5f5dc !important;
 	border-right:1px dashed #ddd;
 	border-left:1px dashed #ddd;
+}
+.row .art-title{
+	padding:1em;
 }
 .art-title.mid{
 	border:0;
@@ -366,6 +368,7 @@ span.title{
 }
 .contents .col-md-3{
 	text-align:right;
+	background:#f5f5dc;
 }
 .contents .col-md-3 img{
 	width:200px;
@@ -392,7 +395,7 @@ span.title{
 	line-height:2.2em;
 }
 
-.back2index,.back2con{
+.back2index,.back2con,.back2index+span{
 	color:#573f24;
 	font-size:20px;
 	position:fixed;
@@ -402,6 +405,17 @@ span.title{
 }
 .details .back2con{
 	right:100px;
+}
+.back2index+span{
+	right:200px;
+	color:#666;
+	font-weight:normal;
+}
+.back2index+span:before{
+	display:inline-block;
+	content:"#";
+	font-size:22px;
+	padding:0 3px;
 }
 .back2index:hover,.back2con:hover{
 	color:#ddd;
