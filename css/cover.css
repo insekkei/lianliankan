@@ -363,6 +363,7 @@ span.title{
  */
 .contents{
 	color:#444;
+	background:url(../img/bgr.jpg) repeat;
 	text-align:left;
 	line-height:2em;
 }
@@ -420,14 +421,13 @@ span.title{
 .back2index:hover,.back2con:hover{
 	color:#ddd;
 }
-.contents,.details{
-	background:#fff;
-	color:#222;
-}
+
 /*
  *details
  */
 .details{
+	background:#fff;
+	color:#222;
 	text-align:left;
 	padding-top:70px !important;
 }
