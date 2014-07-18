@@ -9,6 +9,7 @@
 }
 .details.cmlx{
 	background: #fff url(../img/shanhaiching/cmlx.jpg) no-repeat bottom right fixed;
+	background-size:40%;
 }
 
 @media (max-width: 640px){
