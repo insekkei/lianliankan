@@ -1,4 +1,20 @@
 /*
  *所有文章页面配图css
  */
+.row.zjgt{
+	background:url(../img/shanhaiching/zjgt.jpg) no-repeat bottom right;
+}
+.row.zjgt .art-title{
+	padding-bottom:100px;
+}
+.details.cmlx{
+	background: #fff url(../img/shanhaiching/cmlx.jpg) no-repeat bottom right fixed;
+}
 
+@media (max-width: 640px){
+	.details.cmlx{
+		padding-bottom:200px;
+		background-attachment:scroll;
+		background-size:auto 200px;
+	}	
+}

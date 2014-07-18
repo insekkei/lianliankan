@@ -97,9 +97,12 @@ h1,h2,h3,h4,.title,dl dt{
 	width:100%;
 	height:100%;
 	line-height:500px;
-	background:rgba(0, 0, 0,.9);
+	background:rgba(0, 0, 0,.95);
 	text-align:center;
 	z-index:99999;
+}
+#layout-cover img{
+	opacity:.9 !important;
 }
 /* Padding for spacing */
 .inner {
