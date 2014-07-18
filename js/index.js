@@ -60,7 +60,7 @@ $(function(){
 			$('.cover-container').load('html/'+data,getDetails);
 		});
 		//Enable popovers 
-		$('.author').popover({
+		$('.author,#prev').popover({
 			trigger: 'hover',
 			html:'html'
 		}); 

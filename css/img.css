@@ -7,15 +7,21 @@
 .row.zjgt .art-title{
 	padding-bottom:100px;
 }
-.details.cmlx{
-	background: #fff url(../img/shanhaiching/cmlx.jpg) no-repeat bottom right fixed;
-	background-size:40%;
+.details.cmlx .row{
+	background: #fff url(../img/shanhaiching/cmlx.jpg) no-repeat top right;
+	background-size:50%;
 }
-
+.cmlx .row,.zjzf .row{
+	background:rgba(255,255,255,.3);
+}
+.details.zjzf{
+	background: #fff url(../img/shanhaiching/zjzf2.jpg) no-repeat bottom center;
+	background-size:80%;
+}
 @media (max-width: 640px){
-	.details.cmlx{
+	.details.cmlx .row{
+		background-position:bottom center;
 		padding-bottom:200px;
-		background-attachment:scroll;
 		background-size:auto 200px;
 	}	
 }
