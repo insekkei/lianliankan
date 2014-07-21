@@ -41,7 +41,7 @@ $(function(){
 		ifLastItem();
 	});
 	//contents
-	$(document).ajaxStart(function (e) {
+	$(document).ajaxSend(function (e) {
 		$('#layout-cover').fadeIn(0);
 	});
 	$(document).ajaxComplete(function (e) {
