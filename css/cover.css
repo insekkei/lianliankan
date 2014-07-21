@@ -519,40 +519,49 @@ h1,h2,h3,h4,.title,dl dt{
 }
 .growlist li:nth-child(2n){
 	background:rgba(87,63,36,.6);
-	top:20px;
-	left:-30px;
 }
 .growlist li:nth-child(3n){
 	background:rgba(87,63,36,.9);
-	left:-10px;
+	transform:rotate(-5deg);
+	-webkit-transform:rotate(-5deg);
+	-moz-transform:rotate(-5deg);
+	-o-transform:rotate(-5deg);
 }
 .growlist li:nth-child(4n){
 	background:rgba(87,63,36,.8);
-	left:-10px;
-	top:30px;
+	transform:rotate(-5deg);
+	-webkit-transform:rotate(-5deg);
+	-moz-transform:rotate(-5deg);
+	-o-transform:rotate(-5deg);
 }
 .growlist li:nth-child(5n){
 	background:rgba(87,63,36,.7);
-	top:40px;
-	left:30px;
 }
 .growlist li:nth-child(6n){
 	background:rgba(87,63,36,.6);
-	left:40px;
-	top:50px;
+	transform:rotate(5deg);
+	-webkit-transform:rotate(5deg);
+	-moz-transform:rotate(5deg);
+	-o-transform:rotate(5deg);
 }
 .growlist li:nth-child(7n){
 	background:rgba(87,63,36,.7);
-	left:-40px;
-	top:50px;
+	transform:rotate(-2deg);
+	-webkit-transform:rotate(-2deg);
+	-moz-transform:rotate(-2deg);
+	-o-transform:rotate(-2deg);
 }
 .growlist li:nth-child(8n){
 	background:rgba(87,63,36,1);
-	left:-40px;
-	top:90px;
+	transform:rotate(3deg);
+	-webkit-transform:rotate(3deg);
+	-moz-transform:rotate(3deg);
+	-o-transform:rotate(3deg);
 }
 .growlist li:nth-child(9n){
 	background:rgba(87,63,36,.9);
-	left:-40px;
-	top:60px;
+	transform:rotate(-3deg);
+	-webkit-transform:rotate(-3deg);
+	-moz-transform:rotate(-3deg);
+	-o-transform:rotate(-3deg);
 }
