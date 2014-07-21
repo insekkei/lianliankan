@@ -41,10 +41,15 @@ $(function(){
 		ifLastItem();
 	});
 	//contents
-	$(document).ajaxStart(function () {
-		$(this).html("正在努力地为您加载目录...");
+	$(document).ajaxStart(function (e) {
+		$('#layout-cover').fadeIn(0);
 	});
-
+	$(document).ajaxComplete(function (e) {
+		$('#layout-cover').fadeOut(0);
+	});
+	$(document).ajaxError(function(){
+		//alert('找不到对应页面');
+	});
 	//from thumbnails of index to contents
 	$('a.thumbnail').click(function(e){
 		e.preventDefault();
@@ -79,7 +84,6 @@ $(function(){
 			html:'html'
 		}); 
 	}
-	window.onload=function(){$('#layout-cover').fadeOut();} 
 });
 
 //if current is first item
