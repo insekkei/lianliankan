@@ -53,6 +53,9 @@ $(function(){
 			trigger: 'hover',
 			html:'html'
 		}); 
+		//Enable draggable
+		displayList();
+		$('.growlist li').draggable();
 	}
 	//go to details page
 	var getDetails = function(){
@@ -62,6 +65,7 @@ $(function(){
 			$('.cover-container').load('html/'+data,getContents);
 		
 		});
+
 		//Enable the popovers
 		$('.author').popover({
 			trigger: 'hover',
@@ -69,4 +73,12 @@ $(function(){
 		}); 
 	}
 });
+function displayList(){
+	$('.growlist li:first-child').fadeIn(5000).css('display','inline-block');
+	$('.growlist li:nth-child(2)').fadeIn(2000).css('display','inline-block');
+	$('.growlist li:nth-child(3n)').fadeIn(3000).css('display','inline-block');
+	$('.growlist li:nth-child(4n)').fadeIn(4000).css('display','inline-block');
+	$('.growlist li:nth-child(5n)').fadeIn(500).css('display','inline-block');
+	$('.growlist li:nth-child(7n)').fadeIn(4500).css('display','inline-block');
+}
 
