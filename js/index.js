@@ -12,14 +12,6 @@ $(function(){
 	$('.code').click(function(e){
 		$(this).fadeOut(300);
 	});
-	//show juanshouyu
-	$('#abccj').click(function(e){
-		e.preventDefault();
-		$('.helloworld').fadeIn(300);
-	});
-	$('.helloworld').click(function(e){
-		$(this).fadeOut(300);
-	});
 
 	//slides
 	$('#carousel').carousel()
@@ -29,6 +21,8 @@ $(function(){
 	});
 	$(document).ajaxComplete(function (e) {
 		$('#layout-cover').fadeOut(0);
+		$('#prev').html('上一页');
+		$('#next').html('下一页');
 	});
 	$(document).ajaxError(function(){
 		//alert('找不到对应页面');
@@ -43,23 +37,23 @@ $(function(){
 
 	//back to contents
 	var getContents = function(){
-		$('.back2con,#prev,#next').click(function(e){
+		$('.main ul li a,.back2con,#prev,#next').click(function(e){
 			e.preventDefault();
 			var data = $(this).attr('data');
 			$('.cover-container').load('html/'+data,getDetails);
 		});
 		//Enable popovers 
-		$('.author,#prev').popover({
+		$('.author,#prev,#next').popover({
 			trigger: 'hover',
 			html:'html'
 		}); 
 		//Enable draggable
-		displayList();
 		$('.growlist li').draggable();
+		displayList();
 	}
 	//go to details page
 	var getDetails = function(){
-		$('.main ul li a,#prev,#next').click(function(e){
+		$('.main ul li a,.back2con,#prev,#next').click(function(e){
 			e.preventDefault();
 			var data = $(this).attr('data');
 			$('.cover-container').load('html/'+data,getContents);
@@ -71,6 +65,7 @@ $(function(){
 			trigger: 'hover',
 			html:'html'
 		}); 
+		displayList();
 	}
 });
 function displayList(){
