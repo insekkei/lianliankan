@@ -3,19 +3,6 @@
  */
 
 /* Links */
-
-@font-face
-{
-font-family: '方正古隶';
-src: url('../fonts/FZGL.ttf'),
-     url('../fonts/FZGL.eot'); /* IE9+ */
-}
-@font-face
-{
-font-family: '汉仪小隶书';
-src: url('../fonts/HYXLSJ.ttf'),
-     url('../fonts/HYXLSJ.eot');  
-}
 a,
 a:focus,
 a:hover {
@@ -39,7 +26,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  font-family:'汉仪小隶书','微软简隶','微软雅黑';
+  font-family:'宋体','仿宋','Microsoft Yahei';
   overflow-y:auto;
 }
 
@@ -52,10 +39,10 @@ body {
   text-align: center;
   background:rgba(255,255,255,.4);
   text-shadow: 0 0 1px rgba(0,0,0,0);
-  font-size:16px;
+  font-size:14px;
 }
 h1,h2,h3,h4,.title,dl dt{
-  font-family:'方正古隶','微软简隶','微软雅黑';
+  font-family:'微软雅黑','Microsoft Yahei','黑体';
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -202,7 +189,7 @@ h1,h2,h3,h4,.title,dl dt{
 .cover {
   padding: 0 20px;
   color:#660000;
-  line-height:1.7em;
+  line-height:2em;
 }
 .cover .btn-lg {
   padding: 10px 20px;
