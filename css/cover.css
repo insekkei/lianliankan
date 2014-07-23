@@ -270,6 +270,7 @@ h1,h2,h3,h4,.title,dl dt{
 	padding:1px 5px;
 	border-radius:8px;
 }
+
 .helloworld p{
 	width:80%;
 	margin:1em auto;
@@ -354,16 +355,20 @@ h1,h2,h3,h4,.title,dl dt{
 .contents h4{
 	font-size:2em;
 }
-.contents .main>ul{
+.contents .main ul{
 	padding-left:0;
 }
-.contents .main ul ul{
-	padding-left:2em;
-}
+
 .contents li{
 	list-style:none;
+	font-weight:bold;
+}
+.contents li .title{
+	margin-bottom: 0;
+	margin-top: .5em;
 }
 .contents li a{
+	font-weight:normal;
 	color:#222;
 	line-height:2.2em;
 }
@@ -415,6 +420,9 @@ h1,h2,h3,h4,.title,dl dt{
 .details .row .popover {
 	text-indent:0;
 	line-height:1.5em !important;
+}
+.col-200-4,.col-300-3,.col-200-3{
+	min-height:100%;
 }
 .col-200-4{
 	-moz-columns:200px 4;
