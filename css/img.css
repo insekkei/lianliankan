@@ -20,8 +20,8 @@
 	background-size:90%;
 }
 .details.ygys{
-	background: #fff url(../img/shanhaiching/ygys.jpg) no-repeat bottom right;
-	background-size:60% auto;
+	background: #fff url(../img/shanhaiching/ygys.jpg) no-repeat bottom right fixed;
+	background-size:80% auto;
 	color:#777;
 }
 @media (max-width: 640px){
