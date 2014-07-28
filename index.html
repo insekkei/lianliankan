@@ -33,7 +33,6 @@
   <body>
 
     <div class="site-wrapper">
-
       <div class="site-wrapper-inner">
         <div class="cover-container">
 	<!--首页，需要ajax加载页面的链接都有属性data表示目标路径-->
@@ -45,37 +44,40 @@
             </div>
           </div>
 
-	  <div class="inner cover list clearfix">
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
-		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-		    <!-- <li data-target="#carousel-example-generic" data-slide-to="1"></li> -->
-		  </ol>
-
+	  <div class="inner cover clearfix">
 		  <!-- Wrapper for slides -->
-		  <div class="carousel-inner" role="listbox">
-		    <div class="item active">
+		  <div class="list">
+		    <div class="list-item current first-item">
+		      <img src="img/theme/shj-bg.jpg" class="back-img">
 		      <a href="#" class="thumbnail"  data="intro.html">
-			<img src="img/shj.jpg" alt="...">
+			<img src="img/theme/shj.jpg" alt="...">
 		      </a>
-		      <div class="carousel-caption">
+		      <div class="slide-caption">
 			<h3>2014年7月《山海经》</h3>
     			<p>一部记载我国神话、地理、植物、动物、矿物、物产、巫术、宗教、医药、民俗、民族的著作;<br>一部大约由战国初年到汉代初年，楚国和巴蜀地方的人所作；一部上古时期荒诞不经的奇书；一部古代山水物志。</p>
+		      </div>
+		    </div>
+
+		    <div class="list-item last-item">
+		      <img src="img/theme/sj-bg.jpg" class="back-img">
+		      <a href="#" class="thumbnail">
+			<img src="img/theme/sj.jpg" alt="...">
+		      </a>
+		      <div class="slide-caption">
+			<h3>2014年8月《诗经》</h3>
+    			<p>诗三百，一言以蔽之，思无邪。</p>
 		      </div>
 		    </div>
 		  </div>
 
 		  <!-- Controls -->
-		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		  <a id="slide-left" href="#">
 		    <span class="glyphicon glyphicon-chevron-left"></span>
-		    <span class="sr-only">Previous</span>
 		  </a>
-		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		  <a id="slide-right" href="#">
 		    <span class="glyphicon glyphicon-chevron-right"></span>
-		    <span class="sr-only">Next</span>
 		  </a>
-		</div>
+
           </div>
 
           <div class="mastfoot">

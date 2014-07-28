@@ -15,10 +15,7 @@
 .zjzf .row{
 	background:rgba(255,255,255,.7);
 }
-.details.zjzf{
-	background: #fff url(../img/shanhaiching/zjzf2.jpg) no-repeat bottom left;
-	background-size:90%;
-}
+
 .details.ygys{
 	background: #fff url(../img/shanhaiching/ygys.jpg) no-repeat bottom right fixed;
 	background-size:80% auto;
