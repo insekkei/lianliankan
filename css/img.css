@@ -18,8 +18,12 @@
 
 .details.ygys{
 	background: #fff url(../img/shanhaiching/ygys.jpg) no-repeat bottom right fixed;
-	background-size:80% auto;
+	background-size:40% auto;
 	color:#777;
+}
+.details.zys .row{
+	background: #fff url(../img/shanhaiching/zys.jpg) no-repeat right top;
+	background-size:25% auto;
 }
 @media (max-width: 640px){
 	.details.cmlx .art-content{

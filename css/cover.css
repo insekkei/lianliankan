@@ -456,6 +456,9 @@ h1,h2,h3,h4,.title,dl dt{
 .writter{
 	color:#008000;
 }
+.art-title .img-p{
+	margin:1em auto !important;
+}
 .profile{
 	display:inline-block;
 	float:left;
@@ -463,31 +466,43 @@ h1,h2,h3,h4,.title,dl dt{
 	width:48px;
 	height:48px;
 	margin-right:8px;
-	background-size:144px auto;
+	background-size:192px auto;
 }
 .profile.nrc{
-	background-position:96px 0;
+	background-position:-48px 0;
 }
 .profile.bsy{
-	background-position:0 96px;
+	background-position:0 -48px;
 }
 .profile.myml{
 	background-position:0 0;
 }
 .profile.tz{
-	background-position:96px 96px;
+	background-position:-48px -48px;
 }
 .profile.ls{
-	background-position:96px 48px;
+	background-position:-48px -96px;
 }
 .profile.kfk{
-	background-position:48px 96px;
+	background-position:-96px -48px;
 }
 .profile.dq{
-	background-position:0 48px;
+	background-position:0 -96px;
 }
 .profile.ing{
-	background-position:48px 0;
+	background-position:-96px 0;
+}
+.profile.hlm{
+	background-position:-96px -96px;
+}
+.profile.xm{
+	background-position:-144px 0;
+}
+.profile.mr{
+	background-position:-48px -144px;
+}
+.profile.dwbh{
+	background-position:-144px -144px;
 }
 #prev,#next{
 	display:inline-block;
