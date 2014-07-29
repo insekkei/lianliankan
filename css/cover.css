@@ -502,7 +502,10 @@ h1,h2,h3,h4,.title,dl dt{
 	background-position:-48px -144px;
 }
 .profile.dwbh{
-	background-position:-144px -144px;
+	background-position:-96px -144px;
+}
+.profile.zbqr{
+	background-position:0 -144px;
 }
 #prev,#next{
 	display:inline-block;
