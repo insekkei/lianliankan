@@ -21,7 +21,7 @@
 	background-size:40% auto;
 	color:#777;
 }
-.art-title.zhisou,.art-title.yugong{
+.art-title.zhisou,.art-title.yugong,.art-title.xiaoling{
 	border: 0 !important;
 }
 .art-title.zhisou{
@@ -29,6 +29,9 @@
 }
 .art-title.yugong{
 	background:url(../img/shanhaiching/yugong.jpg) no-repeat right !important;
+}
+.art-title.xiaoling{
+	background:url(../img/shanhaiching/xiaoling.jpg) no-repeat right !important;
 }
 .details.zys .row{
 	background: #fff url(../img/shanhaiching/zys.jpg) no-repeat right top;
@@ -38,7 +41,13 @@
 	background: #fff url(../img/shanhaiching/zys2.jpg) no-repeat left 200px;
 	background-size:50% auto;
 }
-
+.details.zys3{
+	background: #fff url(../img/shanhaiching/zys2.jpg) no-repeat 0 0;
+	background-size:100% 100%;
+}
+.details.zys3 .row{
+	background:rgba(255,255,255,.5);
+}
 @media (max-width: 640px){
 	.details.cmlx .art-content{
 		background-position:bottom center;
