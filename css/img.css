@@ -42,13 +42,13 @@
 	background: #fff url(../img/shanhaiching/zys.jpg) no-repeat right bottom fixed;
 	background-size:100% auto;
 }
-.details.zys2 .row{
+.details.zys2{
 	background: #fff url(../img/shanhaiching/zys2.jpg) no-repeat left 200px;
-	background-size:50% auto;
+	background-size:50%;
 }
 .details.zys3{
-	background: #fff url(../img/shanhaiching/zys2.jpg) no-repeat 0 0;
-	background-size:100% 100%;
+	background: #fff url(../img/shanhaiching/zys2.jpg) no-repeat left fixed;
+	background-size:cover;
 }
 @media (max-width: 640px){
 	.details.cmlx .art-content{
