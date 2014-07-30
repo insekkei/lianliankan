@@ -1,6 +1,10 @@
 /*
  *所有文章页面配图css
  */
+.details.theme{
+	background:#f2f9ff;
+}
+/**********7月 山海经*********/
 .row.zjgt{
 	background:url(../img/shanhaiching/zjgt.jpg) no-repeat bottom right;
 }
@@ -44,9 +48,6 @@
 .details.zys3{
 	background: #fff url(../img/shanhaiching/zys2.jpg) no-repeat 0 0;
 	background-size:100% 100%;
-}
-.details.zys3 .row{
-	background:rgba(255,255,255,.5);
 }
 @media (max-width: 640px){
 	.details.cmlx .art-content{
