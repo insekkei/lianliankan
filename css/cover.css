@@ -464,6 +464,9 @@ h1,h2,h3,h4,.title,dl dt{
 .art-title .img-p{
 	margin:1em auto !important;
 }
+.art-title2 p{
+	text-indent:0 !important;
+}
 .profile{
 	display:inline-block;
 	float:left;
