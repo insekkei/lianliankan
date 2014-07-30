@@ -27,6 +27,7 @@
 }
 .art-title.zhisou,.art-title.yugong,.art-title.xiaoling{
 	border: 0 !important;
+	background-size:120px auto;
 }
 .art-title.zhisou{
 	background:url(../img/shanhaiching/zhisou.jpg) no-repeat right !important;
@@ -37,9 +38,9 @@
 .art-title.xiaoling{
 	background:url(../img/shanhaiching/xiaoling.jpg) no-repeat right !important;
 }
-.details.zys .row{
-	background: #fff url(../img/shanhaiching/zys.jpg) no-repeat right top;
-	background-size:25% auto;
+.details.zys{
+	background: #fff url(../img/shanhaiching/zys.jpg) no-repeat right bottom fixed;
+	background-size:100% auto;
 }
 .details.zys2 .row{
 	background: #fff url(../img/shanhaiching/zys2.jpg) no-repeat left 200px;
