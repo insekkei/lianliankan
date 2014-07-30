@@ -434,7 +434,7 @@ h1,h2,h3,h4,.title,dl dt{
 	text-indent:0;
 	line-height:1.5em !important;
 }
-.col-200-4,.col-300-3,.col-200-3{
+.col-200-4,.col-300-3,.col-200-3,.col-200-2{
 	min-height:100%;
 }
 .col-200-4{
@@ -451,6 +451,11 @@ h1,h2,h3,h4,.title,dl dt{
 	-moz-columns:200px 3;
 	-webkit-columns:200px 3;
 	columns:200px 3;
+}
+.col-200-2{
+	-moz-columns:200px 2;
+	-webkit-columns:200px 2;
+	columns:200px 2;
 }
 
 .writter{

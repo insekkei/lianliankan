@@ -25,6 +25,10 @@
 	background: #fff url(../img/shanhaiching/zys.jpg) no-repeat right top;
 	background-size:25% auto;
 }
+.details.zys2 .row{
+	background: #fff url(../img/shanhaiching/zys2.jpg) no-repeat left 200px;
+	background-size:50% auto;
+}
 @media (max-width: 640px){
 	.details.cmlx .art-content{
 		background-position:bottom center;
