@@ -5,6 +5,12 @@
 	background:#f2f9ff;
 }
 /**********7月 山海经*********/
+.details.baike{
+	background:url(../img/shanhaiching/baike1.jpg) no-repeat bottom right;
+}
+.details.baike .row{
+	background:url(../img/shanhaiching/baike2.jpg) no-repeat  left;
+}
 .row.zjgt{
 	background:url(../img/shanhaiching/zjgt.jpg) no-repeat bottom right;
 }
@@ -50,6 +56,7 @@
 	background: #fff url(../img/shanhaiching/zys2.jpg) no-repeat left fixed;
 	background-size:cover;
 }
+
 @media (max-width: 640px){
 	.details.cmlx .art-content{
 		background-position:bottom center;
