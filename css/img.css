@@ -8,6 +8,9 @@
 .details.baike{
 	background:url(../img/shanhaiching/baike1.jpg) no-repeat bottom right;
 }
+.details.shenhua{
+	background:url(../img/shanhaiching/shenhua.jpg) no-repeat bottom left;
+}
 .details.baike .row{
 	background:url(../img/shanhaiching/baike2.jpg) no-repeat  left;
 }
