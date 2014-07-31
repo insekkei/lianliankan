@@ -32,7 +32,16 @@
 	background-size:50%;
 	background-position-y:200px;
 }
-
+.details.dmg{
+	background:url(../img/shanhaiching/dmg.jpg) no-repeat 85% 10% !important;
+}
+.details.dmg .art-content{
+	background:rgba(255,255,255,.6);
+}
+.details.dmg .art-title{
+	background:transparent !important;
+	border: 0 !important;
+}
 .details.ygys{
 	background: #fff url(../img/shanhaiching/ygys.jpg) no-repeat bottom right fixed;
 	background-size:40% auto;
@@ -42,6 +51,7 @@
 	border: 0 !important;
 	background-size:120px auto;
 }
+
 .art-title.zhisou{
 	background:url(../img/shanhaiching/zhisou.jpg) no-repeat right !important;
 }
