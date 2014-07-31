@@ -14,6 +14,10 @@
 .details.baike .row{
 	background:url(../img/shanhaiching/baike2.jpg) no-repeat  left;
 }
+.details.ding {
+	background:url(../img/shanhaiching/ding.jpg) no-repeat  bottom;
+	background-size:80% auto;
+}
 .row.zjgt{
 	background:url(../img/shanhaiching/zjgt.jpg) no-repeat bottom right;
 }
