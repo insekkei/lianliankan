@@ -284,16 +284,24 @@ h1,h2,h3,h4,.title,dl dt{
 	text-indent:2em;
 	text-align:left;
 }
-.reverse section{
-	padding:1em;
+section{
+	border:1px solid #bbb;
+	color:#333;
 	margin-bottom:1em;
+	padding:1em;
+}
+section.reverse{
 	background:#000;
 	color:#fff;
 }
-.reverse section p:first-child{
+section p:first-child{
 	font-size:1.2em;
+	color:#333;
+	text-indent:0 !important;
+	border-bottom:1px dashed #aaa;
+}
+section.reverse p:first-child{
 	color:#f00;
-	text-indent:0;
 	border-bottom:1px dashed #f00;
 }
 /*
