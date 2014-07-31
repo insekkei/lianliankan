@@ -32,6 +32,10 @@
 	background-size:50%;
 	background-position-y:200px;
 }
+img.w3-fl{
+	width:30%;
+	float:left;
+}
 .details.dmg{
 	background:url(../img/shanhaiching/dmg.jpg) no-repeat 85% 10% !important;
 }
