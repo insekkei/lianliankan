@@ -2,7 +2,7 @@
  *所有文章页面配图css
  */
 .details.theme{
-	background:#f2f9ff;
+	background: url(../img/shanhaiching/theme.jpg) no-repeat 50% 50%;
 }
 /**********7月 山海经*********/
 .details.baike{
@@ -17,6 +17,9 @@
 .details.ding {
 	background:url(../img/shanhaiching/ding.jpg) no-repeat  bottom;
 	background-size:80% auto;
+}
+.details.caixiang .row img{
+	border:1px solid #ccc;
 }
 .row.zjgt{
 	background:url(../img/shanhaiching/zjgt.jpg) no-repeat bottom right;
