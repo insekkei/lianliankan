@@ -284,6 +284,18 @@ h1,h2,h3,h4,.title,dl dt{
 	text-indent:2em;
 	text-align:left;
 }
+.reverse section{
+	padding:1em;
+	margin-bottom:1em;
+	background:#000;
+	color:#fff;
+}
+.reverse section p:first-child{
+	font-size:1.2em;
+	color:#f00;
+	text-indent:0;
+	border-bottom:1px dashed #f00;
+}
 /*
  * Footer
  */
@@ -514,6 +526,9 @@ h1,h2,h3,h4,.title,dl dt{
 }
 .profile.zbqr{
 	background-position:0 -144px;
+}
+.profile.f{
+	background-position:-144px -48px;
 }
 #prev,#next{
 	display:inline-block;
