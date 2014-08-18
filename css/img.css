@@ -95,3 +95,10 @@ img.w3-fr{
 	background-color:papayawhip;
 	padding:1em !important;
 }
+.cffy .row>div{
+	border-left:1px solid #ddd;
+	padding-bottom:1em;
+}
+.cffy .row>div:first-child{
+	border-left:0;
+}
