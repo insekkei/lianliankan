@@ -538,6 +538,9 @@ section.reverse p:first-child{
 .profile.f{
 	background-position:-144px -48px;
 }
+.profile.rz{
+	background-position:-48px -48px;
+}
 #prev,#next{
 	display:inline-block;
 	position:fixed;
