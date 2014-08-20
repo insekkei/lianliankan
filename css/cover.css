@@ -271,11 +271,8 @@ h1,h2,h3,h4,.title,dl dt{
 	border-right:1px dashed #ddd;
 }
 .details .author{
-	background:orange;
-	color:#fff;
+	color:green;
 	cursor:pointer;
-	padding:1px 5px;
-	border-radius:8px;
 }
 
 .helloworld p{
