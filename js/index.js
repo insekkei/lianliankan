@@ -12,11 +12,11 @@ $(function(){
 		$(this).fadeOut(300);
 	});
 	//Enable the popovers
-		$('.author').popover({
-			trigger: 'hover',
-			html:'html'
-		}); 
-		displayList();
+	$('.author').popover({
+		trigger: 'hover',
+		html:'html'
+	}); 
+	displayList();
 	//contents
 	$(document).ajaxSend(function (e) {
 		$('#layout-cover').fadeIn(0);
@@ -96,6 +96,23 @@ $(function(){
 		}); 
 		displayList();
 	}
+
+
+	//scroll to top
+	$('#sTop').click(function(e){
+		e.preventDefault();
+		$("html,body").animate({scrollTop: 0}, 500, 'easeInOutExpo',function(){
+        	});
+	});
+	var winHeight = $(window).height();
+	$(window).bind("scroll", function(event){
+		if( $('body').scrollTop() > winHeight){
+			$("#sTop").fadeIn("slow");
+		}
+		else{
+		 	$("#sTop").fadeOut("slow");
+		}
+	});
 });
 //if current is first item
 function ifFirstItem(){
