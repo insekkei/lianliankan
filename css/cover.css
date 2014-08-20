@@ -26,7 +26,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  font-family:'宋体','仿宋','Microsoft Yahei';
+  font-family:'微软雅黑','Microsoft Yahei','宋体','仿宋';
   overflow-y:auto;
 }
 
@@ -487,6 +487,11 @@ section.reverse p:first-child{
 .art-title2 p{
 	text-indent:0 !important;
 }
+p.hr{
+	margin-top:1em !important;
+	padding-top:1em;
+	border-top:1px dashed #ddd;
+}
 .profile{
 	display:inline-block;
 	float:left;
@@ -539,7 +544,10 @@ section.reverse p:first-child{
 	background-position:-144px -48px;
 }
 .profile.rz{
-	background-position:-48px -48px;
+	background-position:-144px -96px;
+}
+.profile.xc{
+	background-position:-144px -144px;
 }
 #prev,#next{
 	display:inline-block;

@@ -11,7 +11,12 @@ $(function(){
 	$('.code').click(function(e){
 		$(this).fadeOut(300);
 	});
-
+	//Enable the popovers
+		$('.author').popover({
+			trigger: 'hover',
+			html:'html'
+		}); 
+		displayList();
 	//contents
 	$(document).ajaxSend(function (e) {
 		$('#layout-cover').fadeIn(0);
@@ -48,17 +53,21 @@ $(function(){
 	//contents
 	//from thumbnails of index to contents
 	$('a.thumbnail').click(function(e){
-		e.preventDefault();
 		var data = $(this).attr('data');
-		$('.cover-container').load('html/'+data,getDetails);
+		 if(typeof(data)!='undefined'){ 
+			e.preventDefault();
+			$('.cover-container').load('html/'+data,getDetails);
+		}
 	});
 
 	//back to contents
 	var getContents = function(){
 		$('.main ul li a,.back2con,#prev,#next').click(function(e){
-			e.preventDefault();
 			var data = $(this).attr('data');
-			$('.cover-container').load('html/'+data,getDetails);
+			if(typeof(data)!='undefined'){ 
+				e.preventDefault();
+				$('.cover-container').load('html/'+data,getDetails);
+			}
 		});
 		//Enable popovers 
 		$('.author,#prev,#next').popover({
@@ -72,9 +81,11 @@ $(function(){
 	//go to details page
 	var getDetails = function(){
 		$('.main ul li a,.back2con,#prev,#next').click(function(e){
-			e.preventDefault();
 			var data = $(this).attr('data');
-			$('.cover-container').load('html/'+data,getContents);
+			if(typeof(data)!='undefined'){ 
+				e.preventDefault();
+				$('.cover-container').load('html/'+data,getContents);
+			}
 		
 		});
 
