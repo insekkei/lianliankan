@@ -114,13 +114,6 @@ img.w10{
 }
 
 /*******************8月 诗经*******************************/
-.cffy .row>div{
-	border-left:1px solid #ddd;
-	padding-bottom:1em;
-}
-.cffy .row>div:first-child{
-	border-left:0;
-}
 .shijing{
-	background: url(../img/shanhaiching/theme.jpg) no-repeat center -180px fixed;
+	background: url(../img/shanhaiching/theme.jpg) no-repeat center -180px;
 }
