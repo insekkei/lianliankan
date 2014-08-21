@@ -302,6 +302,10 @@ h1,h2,h3,h4,.title,dl dt{
 	right:40px;
 	z-index:-1;
 }
+#sTop:before:hover{
+	border:6px solid #ccc;
+	border-bottom:6px solid #fff;
+}
 .helloworld p{
 	width:80%;
 	margin:1em auto;
