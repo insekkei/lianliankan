@@ -32,15 +32,20 @@
 	background-size:50%;
 	background-position-y:200px;
 }
-img.w3-fl{
+img.w3-fl,div.w3-fl{
 	width:30%;
 	float:left;
 	margin-right:1em;
 }
-img.w3-fr{
+img.w3-fr,div.w3-fr{
 	width:30%;
 	float:right;
 	margin-left:1em;
+}
+div.w3-fl,div.w3-fr{
+	border:1px solid #ddd;
+	background:#f7f7f7;
+	padding:1em;
 }
 img.w5-fr{
 	width:50%;
@@ -51,6 +56,9 @@ img.w5-fl{
 	width:50%;
 	float:left;
 	margin-right:1em;
+}
+img.w10{
+	width:100%;
 }
 .details.dmg{
 	background:url(../img/shanhaiching/dmg.jpg) no-repeat 85% 10% !important;
