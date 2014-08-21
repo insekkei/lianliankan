@@ -101,16 +101,16 @@ $(function(){
 	//scroll to top
 	$('#sTop').click(function(e){
 		e.preventDefault();
-		$("html,body").animate({scrollTop: 0}, 500, 'easeInOutExpo',function(){
+		$('html,body').animate({scrollTop: 0}, 500, 'easeInOutExpo',function(){
         	});
 	});
 	var winHeight = $(window).height();
-	$(window).bind("scroll", function(event){
-		if( $('body').scrollTop() > winHeight){
-			$("#sTop").fadeIn("slow");
+	$(window).scroll(function () {
+		if ($(window).scrollTop() > winHeight) {
+			$('#sTop').fadeIn('slow');
 		}
-		else{
-		 	$("#sTop").fadeOut("slow");
+		else {
+			$('#sTop').fadeOut('slow');
 		}
 	});
 });

@@ -35,10 +35,22 @@
 img.w3-fl{
 	width:30%;
 	float:left;
+	margin-right:1em;
 }
 img.w3-fr{
 	width:30%;
 	float:right;
+	margin-left:1em;
+}
+img.w5-fr{
+	width:50%;
+	float:right;
+	margin-left:1em;
+}
+img.w5-fl{
+	width:50%;
+	float:left;
+	margin-right:1em;
 }
 .details.dmg{
 	background:url(../img/shanhaiching/dmg.jpg) no-repeat 85% 10% !important;

@@ -275,7 +275,6 @@ h1,h2,h3,h4,.title,dl dt{
 	cursor:pointer;
 }
 #sTop{
-	display: inline-block;
 	position: fixed;
 	bottom: 60px;
 	right: 20px;
@@ -288,7 +287,11 @@ h1,h2,h3,h4,.title,dl dt{
 	color:#fff;
 	display:none;
 }
+#sTop:hover{
+	background:#ccc;
+}
 #sTop:before{
+	display:inline-block;
 	content:"";
 	height:0;
 	width:0;
@@ -568,7 +571,7 @@ p.hr{
 	background-position:-144px -96px;
 }
 .profile.xc{
-	background-position:-144px -144px;
+	background-position:-144px  -144px;
 }
 #prev,#next{
 	display:inline-block;
