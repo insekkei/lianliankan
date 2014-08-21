@@ -308,6 +308,9 @@ h1,h2,h3,h4,.title,dl dt{
 	text-indent:2em;
 	text-align:left;
 }
+p.grey{
+	color:#666;
+}
 section{
 	border:1px solid #bbb;
 	color:#333;

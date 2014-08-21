@@ -60,6 +60,9 @@ img.w5-fl{
 img.w10{
 	width:100%;
 }
+.shi p{
+	text-indent:0 !important;
+}
 .details.dmg{
 	background:url(../img/shanhaiching/dmg.jpg) no-repeat 85% 10% !important;
 }
