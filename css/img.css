@@ -121,3 +121,6 @@ img.w10{
 .cffy .row>div:first-child{
 	border-left:0;
 }
+.shijing{
+	background: url(../img/shanhaiching/theme.jpg) no-repeat center -180px fixed;
+}

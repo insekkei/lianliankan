@@ -429,13 +429,24 @@ section.reverse p:first-child>span{color:#f00 !important;}
 .contents li .title{
 	margin-bottom: 0;
 	margin-top: .5em;
+	position: relative;
+	left: -2.5em;
+	padding-left: 2.5em;
+	background: url(../img/content.png) no-repeat;
+	background-size: 24px 24px;
+	background-position: 4px 4px;
 }
 .contents li a{
 	font-weight:normal;
 	color:#222;
 	line-height:2.2em;
 }
-
+.contents li a:hover{
+	opacity:.6;
+	padding-left:5px;
+	border-left:5px solid #ddd;
+	transition:all .1s ease-in-out;
+}
 .back2index,.back2con,.back2index+span{
 	color:#573f24;
 	font-size:20px;
