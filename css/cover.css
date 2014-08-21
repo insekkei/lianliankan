@@ -324,14 +324,16 @@ section.reverse{
 }
 section p:first-child{
 	font-size:1.2em;
-	color:#333;
+	color:#333 !important;
 	text-indent:0 !important;
 	border-bottom:1px dashed #aaa;
 }
+section p:first-child>span{color:#333 !important;}
 section.reverse p:first-child{
-	color:#f00;
+	color:#f00 !important;
 	border-bottom:1px dashed #f00;
 }
+section.reverse p:first-child>span{color:#f00 !important;}
 /*
  * Footer
  */
@@ -527,7 +529,7 @@ p.hr{
 	width:48px;
 	height:48px;
 	margin-right:8px;
-	background-size:192px auto;
+	background-size:240px auto;
 }
 .profile.nrc{
 	background-position:-48px 0;
@@ -576,6 +578,18 @@ p.hr{
 }
 .profile.xc{
 	background-position:-144px  -144px;
+}
+.profile.dc{
+	background-position:-192px  -48px;
+}
+.profile.yz{
+	background-position:-192px  -96px;
+}
+.profile.xgz{
+	background-position:-192px  -144px;
+}
+.profile.hh{
+	background-position:-192px 0;
 }
 #prev,#next{
 	display:inline-block;
