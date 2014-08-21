@@ -40,6 +40,7 @@ body {
   text-shadow: 0 0 1px rgba(0,0,0,0);
   font-size:14px;
 }
+
 h1,h2,h3,h4,.title,dl dt{
   font-family:'微软雅黑','Microsoft Yahei','黑体';
 }
@@ -313,7 +314,7 @@ p.grey{
 }
 section{
 	border:1px solid #bbb;
-	color:#333;
+	color:#573f24;
 	margin-bottom:1em;
 	padding:1em;
 }
