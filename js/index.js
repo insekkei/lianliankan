@@ -16,6 +16,9 @@ $(function(){
 		trigger: 'hover',
 		html:'html'
 	}); 
+	$('.word').tooltip({
+		trigger: 'hover'
+	});
 	displayList();
 	//contents
 	$(document).ajaxSend(function (e) {
