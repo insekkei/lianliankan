@@ -121,3 +121,6 @@ img.w10{
 	background: url(../img/shijing/gaoqiu.jpg) no-repeat bottom;
 	background-size:auto 80%;
 }
+.shijing.cffy .row{
+	background: url(../img/shijing/cffy.jpg) no-repeat bottom right;
+}
