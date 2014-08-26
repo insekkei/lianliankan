@@ -117,3 +117,7 @@ img.w10{
 .shijing{
 	background: url(../img/shanhaiching/theme.jpg) no-repeat center -180px;
 }
+.shijing.gaoqiu .row{
+	background: url(../img/shijing/gaoqiu.jpg) no-repeat bottom;
+	background-size:auto 80%;
+}
