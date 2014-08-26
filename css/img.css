@@ -115,7 +115,8 @@ img.w10{
 
 /*******************8月 诗经*******************************/
 .contents.sj .col-md-3{
-	background:#b1e0e6;
+	background: yellowgreen;
+	color: #fff;
 }
 .shijing{
 	background: url(../img/shanhaiching/theme.jpg) no-repeat center -180px;
