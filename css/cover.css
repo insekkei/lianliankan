@@ -302,7 +302,6 @@ h1,h2,h3,h4,.title,dl dt{
 	position:fixed;
 	bottom:92px;
 	right:40px;
-	z-index:-1;
 }
 .helloworld p{
 	width:80%;
