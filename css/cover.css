@@ -775,6 +775,10 @@ p.hr{
 	-moz-transform:rotate(-3deg);
 	-o-transform:rotate(-3deg);
 }
+/*********梦记********/
+.nav-tabs>li.active>a:focus{
+	border-bottom-color:#ddd !important;
+}
 #cnzz_stat_icon_1252960829{
 	display:none;
 }
