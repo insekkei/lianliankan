@@ -318,6 +318,53 @@ section{
 	margin-bottom:1em;
 	padding:1em;
 }
+element.style {
+}
+section {
+border: 1px solid #bbb;
+color: #573f24;
+background: beige;
+margin-bottom: 1em;
+padding: 1em;
+border-top-right-radius:20px;
+opacity:.8;
+}
+section:hover{
+	border-top-right-radius:0;
+	opacity:1;
+	transition:all .1s ease-in-out;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+display: block;
+}
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+user agent stylesheetarticle, aside, footer, header, hgroup, main, nav, section {
+display: block;
+}
+section:before {
+content: "";
+display: inline-block;
+width: 60px;
+height: 1.5em;
+background: currentcolor;
+position: relative;
+left: -2.5em;
+box-shadow: 1px 1px 3px #000;
+-webkit-box-shadow: 1px 1px 3px #000;
+-moz-box-shadow: 1px 1px 3px #000;
+-o-box-shadow: 1px 1px 3px #000;
+}
+.dyd section:before{
+	top: -1em;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+}
 section.reverse{
 	background:#000;
 	color:#fff;
@@ -496,7 +543,7 @@ section.reverse p:first-child>span{color:#f00 !important;}
 	line-height:1.5em !important;
 }
 span.word{
-	color: tan;
+	color: darkgoldenrod;
 	cursor: pointer;
 	border-bottom: 1px dotted green;
 }
