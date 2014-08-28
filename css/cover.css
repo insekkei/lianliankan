@@ -326,11 +326,9 @@ color: #573f24;
 background: beige;
 margin-bottom: 1em;
 padding: 1em;
-border-top-right-radius:20px;
 opacity:.8;
 }
 section:hover{
-	border-top-right-radius:0;
 	opacity:1;
 	transition:all .1s ease-in-out;
 }
@@ -346,20 +344,31 @@ user agent stylesheetarticle, aside, footer, header, hgroup, main, nav, section 
 display: block;
 }
 section:before {
-content: "";
 display: inline-block;
-width: 60px;
 height: 1.5em;
-background: currentcolor;
 position: relative;
-left: -2.5em;
 box-shadow: 1px 1px 3px #000;
 -webkit-box-shadow: 1px 1px 3px #000;
 -moz-box-shadow: 1px 1px 3px #000;
 -o-box-shadow: 1px 1px 3px #000;
 }
-.dyd section:before{
-	top: -1em;
+.shijing section:before{
+	width:3em;
+	left: -2em;
+	top:-.5em;
+	background-color: yellowgreen;
+	color:#fff;
+	text-align:center;
+	content:"诗文";
+	line-height:1.5em;
+}
+.shijing.dyd section:before{
+	width: 60px;
+	left: -2.5em;
+	top:-1em;
+	background-color: currentcolor;
+	color: currentcolor;
+	content:"";
 	transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
