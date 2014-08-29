@@ -776,6 +776,9 @@ p.hr{
 	-o-transform:rotate(-3deg);
 }
 /*********梦记********/
+.tucao .tab-content>.tab-pane {
+padding: 1em 4em;
+}
 .tucao .nav-tabs>li.active>a,.tucao .nav-tabs>li.active>a:hover,.tucao  .nav-tabs>li.active>a:focus{
 	border:1px solid transparent;
 }
