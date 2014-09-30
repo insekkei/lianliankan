@@ -777,25 +777,25 @@ p.hr{
 	-o-transform:rotate(-3deg);
 }
 /*********梦记********/
-.tucao .tab-content>.tab-pane {
+.tucao .tab-content>.tab-pane,.teacher .tab-content>.tab-pane {
 padding: 1em 4em;
 }
-.tucao .nav-tabs>li.active>a,.tucao .nav-tabs>li.active>a:hover,.tucao  .nav-tabs>li.active>a:focus{
+.tucao .nav-tabs>li.active>a,.tucao .nav-tabs>li.active>a:hover,.tucao  .nav-tabs>li.active>a:focus,.teacher .nav-tabs>li.active>a,.teacher .nav-tabs>li.active>a:hover,.teacher  .nav-tabs>li.active>a:focus{
 	border:1px solid transparent;
 }
-.tucao .nav-tabs>li>a{
+.tucao .nav-tabs>li>a,.teacher .nav-tabs>li>a{
 	border-radius:4px;
 	padding: 5px 10px;
 }
 
-.tucao .nav-tabs{
+.tucao .nav-tabs,.teacher .nav-tabs{
 	padding-bottom:1em;
 }
-.tucao a{
+.tucao a,.teacher a{
 	color: yellowgreen;
 	border:0;
 }
-.tucao a:hover, .tucao a:focus{
+.tucao a:hover, .tucao a:focus,.teacher a:hover, .teacher a:focus{
 	opacity:.8;
 }
 #cnzz_stat_icon_1252960829{
