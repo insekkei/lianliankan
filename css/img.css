@@ -160,10 +160,12 @@ img.w10{
 	background:transparent url(../img/nddk/qsjs-left.jpg) no-repeat left fixed;
 }
 .ydcl.details{
-	background:#000 url(../img/nddk/ydcl.jpg) no-repeat bottom;
-	background-size:contain;
+	background:#000 url(../img/nddk/ydcl.jpg) no-repeat center;
+	background-size:100% auto;
 }
 .ydcl.details .row{
 	background:rgba(0,0,0,.5);
 }
-
+.nddk.tucao .row{
+	background:#000 url(../img/nddk/tucao.jpg) no-repeat bottom right fixed ;
+}
