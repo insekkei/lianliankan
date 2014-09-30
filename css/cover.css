@@ -666,6 +666,12 @@ p.hr{
 .profile.hh{
 	background-position:-192px 0;
 }
+.profile.eval{
+	background-position:0 -192px;
+}
+.profile.zyd{
+	background-position:-48px -192px;
+}
 #prev,#next{
 	display:inline-block;
 	position:fixed;
