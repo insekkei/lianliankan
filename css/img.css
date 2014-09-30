@@ -139,6 +139,9 @@ img.w10{
 .nddk.contents .col-md-3{
 	background:rgba(255,255,255,.5);
 }
+.nddk .back2index,.nddk .back2index+span{
+	color:#eee;
+}
 .nddk.details{
 	background:#000;
 	color:#eee;
