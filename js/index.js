@@ -16,6 +16,15 @@ $(function(){
 		e.preventDefault();
 		$('#notice-cover').fadeOut();
 	});
+	//判断是否新会话
+	if (sessionStorage.pagecount){
+                  sessionStorage.pagecount=Number(sessionStorage.pagecount) +1;
+        }else{
+                  sessionStorage.pagecount=1;
+        }
+	if( Number(sessionStorage.pagecount) ==1){
+		$('#notice-cover').fadeIn();
+	}
 	//Enable the popovers
 	$('.author').popover({
 		trigger: 'hover',

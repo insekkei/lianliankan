@@ -816,6 +816,7 @@ padding: 1em 4em;
 	margin:0;
 	background:rgba(0,0,0,.8);
 	z-index:999;
+	display:none;
 }
 .notice{
 	background:#fff;
