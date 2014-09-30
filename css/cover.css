@@ -419,6 +419,8 @@ section.reverse p:first-child>span{color:#f00 !important;}
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
+    height:auto;
+    min-height:100%;
   }
   .masthead,.mastfoot,.site-wrapper-inner{
 	width:100%;

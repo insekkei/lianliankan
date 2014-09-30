@@ -131,3 +131,23 @@ img.w10{
 .tucao .row{
 	background: url(../img/shijing/hehe.jpg) no-repeat right bottom fixed;
 }
+/*******************9月 脑洞大开*******************************/
+.nddk.details{
+	background:#000;
+	color:#eee;
+}
+.qsjs.details{
+	padding-left:0 !important;
+	padding-right:0 !important;
+	background:#000 url(../img/nddk/qsjs-right.jpg) no-repeat right fixed;
+}
+.qsjs.details>div {
+	padding-left:10%;
+	padding-right:10%;
+	background:transparent url(../img/nddk/qsjs-left.jpg) no-repeat left fixed;
+}
+.ydcl.details{
+	background:#000 url(../img/nddk/ydcl.jpg) no-repeat bottom;
+	background-size:contain;
+}
+
