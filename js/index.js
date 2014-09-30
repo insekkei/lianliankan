@@ -11,6 +11,11 @@ $(function(){
 	$('.code').click(function(e){
 		$(this).fadeOut(300);
 	});
+	//notice
+	$('#notice-cover .close').click(function(e){
+		e.preventDefault();
+		$('#notice-cover').fadeOut();
+	});
 	//Enable the popovers
 	$('.author').popover({
 		trigger: 'hover',

@@ -806,6 +806,38 @@ padding: 1em 4em;
 .tucao a:hover, .tucao a:focus,.teacher a:hover, .teacher a:focus{
 	opacity:.8;
 }
+/************notice*************/
+#notice-cover{
+	text-align:left;
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	margin:0;
+	background:rgba(0,0,0,.8);
+	z-index:999;
+}
+.notice{
+	background:#fff;
+	width:80%;
+	height:80%;
+	padding:1em;
+	margin: 5% auto;
+	overflow:hidden;
+}
+.notice .wen{
+	height:80%;
+	overflow:auto;
+}
+.notice p{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#notice-cover .close{
+	position:fixed;
+	font-size:38px;
+}
 #cnzz_stat_icon_1252960829{
 	display:none;
 }
