@@ -136,6 +136,9 @@ img.w10{
 	background:#000;
 	color:#eee;
 }
+.nddk.details .row{
+	border-top:3px dotted #f00;
+}
 .qsjs.details{
 	padding-left:0 !important;
 	padding-right:0 !important;
@@ -153,3 +156,4 @@ img.w10{
 .ydcl.details .row{
 	background:rgba(0,0,0,.5);
 }
+
