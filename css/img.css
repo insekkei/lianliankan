@@ -150,4 +150,6 @@ img.w10{
 	background:#000 url(../img/nddk/ydcl.jpg) no-repeat bottom;
 	background-size:contain;
 }
-
+.ydcl.details .row{
+	background:rgba(0,0,0,.5);
+}
